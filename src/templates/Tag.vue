@@ -38,6 +38,13 @@ query Posts ($title: String!) {
 import PostsList from "~/components/PostsList.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: this.tag,
+      meta: [{ name: "description", content: 'Posts with ' + this.tag + ' tag.' }]
+    };
+  },
+
   data() {
     return {
       tag: ''

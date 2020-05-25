@@ -23,7 +23,7 @@ import PostsList from "~/components/PostsList.vue";
 
 export default {
   metaInfo: {
-    title: "Posts - Coder Bootcamp",
+    title: "Posts",
     meta: [
       {
         name: "description",

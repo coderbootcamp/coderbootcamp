@@ -84,7 +84,7 @@ export default {
       {
         name: "description",
         content:
-          "Learn coding. Build real world apps. Become full-stack developer. Achieve your career goals."
+          "Coder Bootcamp is for developers to read about programming languages, libraries, frameworks, ecosystems, talks, communities, people and more."
       },
       { name: "author", content: "Ravi Teja" }
     ]

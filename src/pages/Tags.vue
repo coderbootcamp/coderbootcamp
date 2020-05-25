@@ -24,7 +24,7 @@
 
 export default {
   metaInfo: {
-    title: "Tags - Coder Bootcamp",
+    title: "Tags",
     meta: [
       {
         name: "description",
