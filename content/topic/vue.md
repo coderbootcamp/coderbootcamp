@@ -12,6 +12,7 @@ Vue is a progressive javascript framework created by [Evan You](https://twitter.
 - [Team](#team)
 - [Ecosystem](#ecosystem)
 - [Learning Platforms](#learning-platforms)
+- [Notable Reads](#notable-reads)
 
 ## Links
 
@@ -25,18 +26,16 @@ View the core team [here.](https://vuejs.org/v2/guide/team)
 
 ## Ecosystem
 
-- **Nuxt JS**: A modular and performant vue framework to build single page applications. It supports server-side rendering and can generate static sites.
-  - [Website](https://nuxtjs.org/)
-  - [Twitter](https://twitter.com/nuxt_js)
-- **Vue Press**: Site site generator.
-  - [Website](https://vuepress.vuejs.org/)
-  - [Twitter](https://twitter.com/vuepressjs)
-- **Gridsome**: JAM stack framework.
-  - [Website](https://gridsome.org/)
-  - [Twitter](https://twitter.com/gridsome)
+- [Nuxt JS](https://nuxtjs.org/): A modular and performant vue framework to build single page applications. It supports server-side rendering and can generate static sites.
+- [Vue Press](https://vuepress.vuejs.org/): Site site generator from the Vue core team.
+- [Gridsome](https://gridsome.org/): JAM stack framework.
 
 ## Learning Platforms
 
 - [Vue School](https://vueschool.io)
 - [Vue Mastery](https://www.vuemastery.com)
 - [Laracasts](https://laracasts.com/topics/vue)
+
+## Notable Reads
+
+- [The process: Making Vue 3](https://increment.com/frontend/making-vue-3/) by Evan You.

@@ -11,7 +11,7 @@ Deno, pronounced as "dino", is a simple, modern and secure runtime for JavaScrip
 On May 14, 2020, version 1 has been released. Read about the release from the [offical blog](https://deno.land/v1) post.
 
 - [Links](#links)
-- [Videos and code examples](#videos-and-code-examples)
+- [Learn](#learn)
 - [Talks](#talks)
 
 ## Links
@@ -19,9 +19,9 @@ On May 14, 2020, version 1 has been released. Read about the release from the [o
 - [Official website](https://deno.land/)
 - [Twitter](https://twitter.com/deno_land)
 
-## Videos and code examples
+## Learn
 
-- [The Deno Handbook](https://flaviocopes.com/deno/): a concise introduction to Deno by Flavio Copes.
+- [The Deno Handbook](https://flaviocopes.com/deno/), a concise introduction to Deno by Flavio Copes.
 - [Deno JS first look](https://academind.com/learn/node-js/denojs-first-look/) by Maximilian of Academind.
 - [Deno Crash Course](https://www.youtube.com/watch?v=NHHhiqwcfRM&feature=youtu.be) from Traversy Media.
 

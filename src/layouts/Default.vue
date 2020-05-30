@@ -25,6 +25,11 @@ main {
   main {
     margin: 0rem;
   }
+
+  ul {
+    padding-left: 0px;
+    list-style: inside;
+  }
 }
 
 .mb-0 {
