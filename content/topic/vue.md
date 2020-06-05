@@ -8,6 +8,8 @@ website: "https://vuejs.org/"
 
 Vue is a progressive javascript framework created by [Evan You](https://twitter.com/youyuxi). He started working on vue as a side-project when he was working in Google creative Lab. He is now working full-time with a team and the version 3 is about to release. Vue has its own [dev tools](https://github.com/vuejs/vue-devtools), a [CLI](https://cli.vuejs.org/) for standard tooling and out-of-the box scaffolding, [Vue router](https://router.vuejs.org/) for client-side routing for single-page applications, [Vuex](https://vuex.vuejs.org/) for state management and an official guide for [server-side rendering.](https://ssr.vuejs.org/#what-is-server-side-rendering-ssr) It has an indepth [cookbook](https://vuejs.org/v2/cookbook/) with examples for common and interesting use cases.
 
+---
+
 - [Links](#links)
 - [Team](#team)
 - [Ecosystem](#ecosystem)
@@ -18,6 +20,7 @@ Vue is a progressive javascript framework created by [Evan You](https://twitter.
 
 - [Official website](https://vuejs.org/)
 - [Twitter](https://twitter.com/vuejs)
+- [GitHub](https://github.com/vuejs/vue)
 - [Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 
 ## Team

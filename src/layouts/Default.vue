@@ -91,4 +91,8 @@ code {
   display: flex;
   justify-content: space-between;
 }
+
+hr {
+  color: lightblue;
+}
 </style>
