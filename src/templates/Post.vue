@@ -8,7 +8,7 @@
       <h1 class="mb-0">{{ $page.post.title }}</h1>
       <p
         class="mt-0 mb-0"
-      >Written by {{ $page.post.author }} on {{ formatDate($page.post.updatedOn) }}. {{ $page.post.timeToRead }} min read.</p>
+      >Written by {{ $page.post.author }}.</p>
     </nav>
 
     <div class="pad">
@@ -21,6 +21,10 @@
         </p>
       </div>
     </div>
+
+    <footer>
+      <p class="mt-0 mb-0">Updated on {{ formatDate($page.post.updatedOn) }}. {{ $page.post.timeToRead }} min read.</p>
+    </footer>
   </Layout>
 </template>
 
