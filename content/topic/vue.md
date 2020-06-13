@@ -8,7 +8,7 @@ website: "https://vuejs.org/"
 
 Vue is a progressive javascript framework created by [Evan You](https://twitter.com/youyuxi). He started working on vue as a side-project when he was working in Google creative Lab. He is now working full-time with a team and the version 3 is about to release. Vue has its own [dev tools](https://github.com/vuejs/vue-devtools), a [CLI](https://cli.vuejs.org/) for standard tooling and out-of-the box scaffolding, [Vue router](https://router.vuejs.org/) for client-side routing for single-page applications, [Vuex](https://vuex.vuejs.org/) for state management and an official guide for [server-side rendering.](https://ssr.vuejs.org/#what-is-server-side-rendering-ssr) It has an indepth [cookbook](https://vuejs.org/v2/cookbook/) with examples for common and interesting use cases.
 
----
+Table of contents
 
 - [Links](#links)
 - [Team](#team)
@@ -43,7 +43,9 @@ View the core team [here.](https://vuejs.org/v2/guide/team)
 
 ## Blogs and Newsletters
 
-- [Vue Developers](https://vuejsdevelopers.com)
+- VueJs Developer. [Website](https://vuejsdevelopers.com), [Twitter](https://twitter.com/vuejsdevelopers), maintaining by [Anthony Gore](https://twitter.com/anthonygore)
+- Vue Dose Tips. [Website](https://vuedose.tips/), [Twitter](https://twitter.com/VueDose), maintaining by [Alex Jover Morales](https://twitter.com/alexjoverm)
+- Vue Js Feed. [Website](https://vuejsfeed.com/), [Twitter](https://twitter.com/vuejsfeed), maintaining by [Kostas Maniatis](https://twitter.com/kostaskafcas)
 
 ## Jobs
 

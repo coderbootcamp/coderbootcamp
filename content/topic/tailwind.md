@@ -8,7 +8,7 @@ website: "https://tailwindcss.com/"
 
 Tailwind CSS is a utility-first CSS framework by [Adam Wathan](https://twitter.com/adamwathan). Utility-first CSS approach is to expose pre-defined CSS classes to eliminate the need for custom CSS and component-based CSS. Tailwind also allows making own design system from a configuration file giving more control to the developers.  It is now growing into an ecosystem with official UI components and learning platform.
 
----
+Table of contents
 
 - [Links](#links)
 - [Team](#team)
