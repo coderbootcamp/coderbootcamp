@@ -14,6 +14,8 @@ Vue is a progressive javascript framework created by [Evan You](https://twitter.
 - [Team](#team)
 - [Ecosystem](#ecosystem)
 - [Learning Platforms](#learning-platforms)
+- [Blogs and Newsletters](#blogs-and-newsletters)
+- [Jobs](#jobs)
 - [Notable Reads](#notable-reads)
 
 ## Links
@@ -38,6 +40,14 @@ View the core team [here.](https://vuejs.org/v2/guide/team)
 - [Vue School](https://vueschool.io)
 - [Vue Mastery](https://www.vuemastery.com)
 - [Laracasts](https://laracasts.com/topics/vue)
+
+## Blogs and Newsletters
+
+- [Vue Developers](https://vuejsdevelopers.com)
+
+## Jobs
+
+- [Vue Jobs](https://vuejobs.com/)
 
 ## Notable Reads
 
