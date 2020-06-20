@@ -4,7 +4,7 @@
        <div class="flex-between">
         <g-link to="/">Home</g-link>
         <g-link to="/posts">All Posts</g-link>
-        <g-link to="/tags">Explore Posts</g-link>
+        <g-link to="/tags">Explore Tags</g-link>
       </div>
       <h1 class="mb-0"><i>#{{ tag }}</i> Posts</h1>
     </nav>

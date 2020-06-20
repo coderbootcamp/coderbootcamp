@@ -6,7 +6,7 @@
       </small>
       <h3 class="mb-0 mt-0">{{ post.node.title }}</h3>
       <p class="mb-0 mt-0">{{ post.node.excerpt }}</p>
-      <small>Written on {{ new Date(post.node.updatedOn).toDateString() }}</small>
+      <small>Updated on {{ new Date(post.node.updatedOn).toDateString() }}</small>
       <p class="mt-0"><a v-bind:href="post.node.path">Read Post</a></p>
     </div>
   </div>

@@ -22,18 +22,6 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/topic/*.md',
-        typeName: 'Topic',
-        remark: {
-          plugins: [
-            '@gridsome/remark-prismjs'
-          ]
-        },
-      }
-    },
-    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-76337962-4'
@@ -42,8 +30,7 @@ module.exports = {
   ],
   templates: {
     Post: '/posts/:title',
-    Tag: '/tags/:title',
-    Topic: '/topics/:title'
+    Tag: '/tags/:title'
   },
   transformers: {
     remark: {

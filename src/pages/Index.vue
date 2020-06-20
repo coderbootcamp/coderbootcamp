@@ -12,20 +12,14 @@
     </nav>
 
     <div class="pad">
-      <div style="margin-top: 1rem;">
-        <h2 class="mt-0">Topics</h2>
+      <h2 style="margin-top: 3rem;" class="mb-0">Latest Posts</h2>
+      <posts-list v-bind:posts="$page.posts.edges"></posts-list>
+
+      <div style="display: flex; justify-content: space-between; background-color: lightcyan; padding: 0rem 2rem;flex-wrap: wrap;">
+        <h3>Read <g-link to="/posts">more posts</g-link></h3>       
+        <h3>Explore <g-link to="/posts">tags</g-link></h3>       
       </div>
 
-      <div id="topics">
-        <div v-for="edge in $page.topics.edges " v-bind:key="edge.node.id" class="topic-item">
-          <img v-bind:src="edge.node.logo" v-bind:alt="edge.node.title" height="64">
-          <a v-bind:href="edge.node.path"><h2 class="mb-0">{{ edge.node.title }}</h2></a>
-          <p class="mt-0 mb-0">{{ edge.node.description }}</p>
-        </div>
-      </div>
-
-      <h2 style="margin-top: 3rem;" class="mb-0">Posts</h2>
-      <p class="mt-0">Read blog posts <g-link to="/posts">here.</g-link></p>       
   
       <h2 style="margin-top: 3rem;">Stay In Touch</h2>
       <ul>
@@ -58,15 +52,14 @@
 </template>
 
 <page-query>
-query Topic {
-  topics: allTopic(sortBy: "title", order: ASC) {
+query Posts {
+  posts: allPost(sortBy: "updatedOn", order: DESC, limit: 3) {
     edges {
       node {
         id
         title
-        description
+        excerpt
         path
-        logo
         updatedOn
       }
     }
@@ -95,25 +88,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-#topics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
-.topic-item {
-  padding: 2rem;
-  background-color:aliceblue;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  #topics {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
-  }
- }
-</style>
